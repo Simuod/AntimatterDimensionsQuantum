@@ -496,5 +496,23 @@ export const tabs = [
         hidable: true
       }
     ]
+  },
+  {
+    key: "quantum",
+    name: "Quantum",
+    hideAt: 2.2,
+    UIClass: "o-tab-btn--quantum",
+    id: 10,
+    hidable: true,
+    subtabs: [
+      {
+        key: "upgrades",
+        name: "Quantum Upgrades",
+        symbol: "<i class='fas fa-arrow-up'></i>",
+        component: "QuantumUpgradesTab",
+        id: 0,
+        hidable: true,
+      }
+    ],
   }
 ];

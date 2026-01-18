@@ -189,7 +189,7 @@ export const Tab = GameDatabase.tabs.mapToObject(
   config => new TabState(config)
 );
 
-export const Tabs = (function() {
+export const Tabs = (function () {
   return {
     all: Object.values(Tab),
     get current() {
@@ -206,6 +206,7 @@ export const Tabs = (function() {
       Tab.eternity,
       Tab.reality,
       Tab.celestials,
+      Tab.quantum,
       Tab.shop
     ],
     newUI: [
@@ -216,6 +217,7 @@ export const Tabs = (function() {
       Tab.eternity,
       Tab.reality,
       Tab.celestials,
+      Tab.quantum,
       Tab.achievements,
       Tab.statistics,
       Tab.options,
