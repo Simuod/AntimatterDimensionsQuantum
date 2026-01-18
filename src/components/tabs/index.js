@@ -42,6 +42,8 @@ import TimeDimensionsTab from "./time-dimensions/TimeDimensionsTab";
 import TimeStudiesTab from "./time-studies/TimeStudiesTab";
 import VTab from "./celestial-v/VTab";
 import QuantumUpgradesTab from "./quantum-upgrades/QuantumUpgradesTab";
+import QuasarTab from "./quasar/QuasarTab";
+import DevConsoleTab from "./dev-console/DevConsoleTab";
 
 const TabComponents = {
   AntimatterDimensionsTab,
@@ -86,7 +88,9 @@ const TabComponents = {
   CelestialNavigationTab,
   ShopTab,
   MultiplierBreakdownTab,
-  QuantumUpgradesTab
+  QuantumUpgradesTab,
+  QuasarTab,
+  DevConsoleTab
 };
 
 export default TabComponents;

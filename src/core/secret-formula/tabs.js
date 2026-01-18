@@ -506,12 +506,28 @@ export const tabs = [
     hidable: true,
     subtabs: [
       {
+        key: "quantum",
+        name: "Quasar",
+        symbol: "<i class='fas fa-circle'></i>",
+        component: "QuasarTab",
+        id: 0,
+        hidable: true
+      },
+      {
         key: "upgrades",
         name: "Quantum Upgrades",
         symbol: "<i class='fas fa-arrow-up'></i>",
         component: "QuantumUpgradesTab",
-        id: 0,
-        hidable: true,
+        id: 1,
+        hidable: true
+      },
+      {
+        key: "quantum",
+        name: "Dev Console",
+        symbol: "<i class='fas fa-circle'></i>",
+        component: "DevConsoleTab",
+        id: 2,
+        hidable: true
       }
     ],
   }

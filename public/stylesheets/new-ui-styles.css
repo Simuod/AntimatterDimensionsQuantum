@@ -124,7 +124,7 @@ body.t-s12 {
   z-index: 1;
 }
 
-.c-modern-sidebar > .o-tab-btn {
+.c-modern-sidebar>.o-tab-btn {
   border-left-width: 0;
 }
 
@@ -180,6 +180,10 @@ body.t-s12 {
   border-left-color: var(--color-celestials);
 }
 
+.o-tab-btn--quantum::after {
+  border-left-color: var(--color-quantum);
+}
+
 .tab-button.shop {
   background-color: #d9bb26;
 }
@@ -204,7 +208,7 @@ body.t-s12 {
   justify-content: center;
 }
 
-.tab-container > .l-antimatter-dim-tab {
+.tab-container>.l-antimatter-dim-tab {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -339,7 +343,8 @@ body.t-s12 {
 }
 
 .l-dimensions-container {
-  padding: 0.5rem 5rem 0.5rem 9rem; /* TOP RIGHT BOTTOM LEFT */
+  padding: 0.5rem 5rem 0.5rem 9rem;
+  /* TOP RIGHT BOTTOM LEFT */
 }
 
 .o-primary-btn--new {
@@ -789,7 +794,7 @@ body.t-s12 {
   font-size: 0.95rem;
 }
 
-.resource-eternity-canreset > div {
+.resource-eternity-canreset>div {
   height: 100%;
 }
 
@@ -898,7 +903,7 @@ body.t-s12 {
 .t-normal .c-sacrificed-glyphs--dragover,
 .t-s12 .c-sacrificed-glyphs--dragover {
   border-color: rgb(255, 255, 255);
-  box-shadow: 0 0 0.1rem 0.1rem  rgb(255, 255, 255);
+  box-shadow: 0 0 0.1rem 0.1rem rgb(255, 255, 255);
 }
 
 .t-normal .c-glyph-choice-icon,
