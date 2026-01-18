@@ -500,7 +500,7 @@ export const tabs = [
   {
     key: "quantum",
     name: "Quantum",
-    hideAt: 2.2,
+    hideAt: 2.9,
     UIClass: "o-tab-btn--quantum",
     id: 10,
     hidable: true,
@@ -509,7 +509,7 @@ export const tabs = [
         key: "upgrades",
         name: "Quantum Upgrades",
         symbol: "<i class='fas fa-arrow-up'></i>",
-        component: "QuantumUpgradesTab",
+        component: "quantumUpgradesTab",
         id: 0,
         hidable: true,
       }
