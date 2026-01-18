@@ -509,7 +509,7 @@ export const tabs = [
         key: "upgrades",
         name: "Quantum Upgrades",
         symbol: "<i class='fas fa-arrow-up'></i>",
-        component: "quantumUpgradesTab",
+        component: "QuantumUpgradesTab",
         id: 0,
         hidable: true,
       }
